@@ -10,11 +10,10 @@
 
 import sys
 
-sys.path.append("/Workspace/Users/felix.l.kjellberg@gmail.com/DE25_Big_Data_Course/New Pipeline 2026-05-12 10:52")
+sys.path.append("/Workspace/Users/felix.l.kjellberg@gmail.com/DE25_Big_Data_Course/05_bronze")
 
 # COMMAND ----------
 
 # !!! Before performing any data analysis, make sure to run the pipeline to materialize the sample datasets. The tables referenced in this notebook depend on that step.
 
 display(spark.sql("SELECT * FROM workspace.default.sample_aggregation_05_supply_chain"))
-
